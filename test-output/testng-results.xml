@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="2" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FacebookApp Suite" duration-ms="16902" started-at="2017-11-10T16:33:37Z" finished-at="2017-11-10T16:33:54Z">
+    <groups>
+    </groups>
+    <test name="FacebookApp test" duration-ms="8970" started-at="2017-11-10T16:33:37Z" finished-at="2017-11-10T16:33:46Z">
+      <class name="com.testprojects.facebook.tests.FacebookRatingTest">
+        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.testprojects.facebook.tests.FacebookRatingTest@6833ce2c]" name="setupSelenium" is-config="true" duration-ms="2964" started-at="2017-11-10T18:33:37Z" finished-at="2017-11-10T18:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSelenium -->
+        <test-method status="FAIL" signature="facebookRatingCompare()[pri:0, instance:com.testprojects.facebook.tests.FacebookRatingTest@6833ce2c]" name="facebookRatingCompare" duration-ms="5920" started-at="2017-11-10T18:33:40Z" finished-at="2017-11-10T18:33:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[2 start should be more than 3 start expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 2 start should be more than 3 start expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at com.testprojects.facebook.tests.FacebookRatingTest.facebookRatingCompare(FacebookAppTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookRatingCompare -->
+        <test-method status="PASS" signature="closeSelenium()[pri:0, instance:com.testprojects.facebook.tests.FacebookRatingTest@6833ce2c]" name="closeSelenium" is-config="true" duration-ms="71" started-at="2017-11-10T18:33:46Z" finished-at="2017-11-10T18:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSelenium -->
+        <test-method status="SKIP" signature="aaa()[pri:0, instance:com.testprojects.facebook.tests.FacebookRatingTest@6833ce2c]" name="aaa" duration-ms="0" started-at="2017-11-10T18:33:46Z" depends-on-methods="com.testprojects.facebook.tests.FacebookRatingTest.facebookRatingCompare" finished-at="2017-11-10T18:33:46Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method FacebookAppTest.aaa()[pri:0, instance:com.testprojects.facebook.tests.FacebookRatingTest@6833ce2c] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method FacebookAppTest.aaa()[pri:0, instance:com.testprojects.facebook.tests.FacebookRatingTest@6833ce2c] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1063)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaa -->
+      </class> <!-- com.testprojects.facebook.tests.FacebookRatingTest -->
+    </test> <!-- FacebookApp test -->
+    <test name="FacebookApp test1" duration-ms="7913" started-at="2017-11-10T16:33:46Z" finished-at="2017-11-10T16:33:54Z">
+      <class name="com.testprojects.facebook.tests.FacebookRatingTest">
+        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.testprojects.facebook.tests.FacebookRatingTest@3cb5cdba]" name="setupSelenium" is-config="true" duration-ms="1867" started-at="2017-11-10T18:33:46Z" finished-at="2017-11-10T18:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSelenium -->
+        <test-method status="FAIL" signature="facebookRatingCompare()[pri:0, instance:com.testprojects.facebook.tests.FacebookRatingTest@3cb5cdba]" name="facebookRatingCompare" duration-ms="5973" started-at="2017-11-10T18:33:48Z" finished-at="2017-11-10T18:33:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[2 start should be more than 3 start expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 2 start should be more than 3 start expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at com.testprojects.facebook.tests.FacebookRatingTest.facebookRatingCompare(FacebookAppTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookRatingCompare -->
+        <test-method status="PASS" signature="closeSelenium()[pri:0, instance:com.testprojects.facebook.tests.FacebookRatingTest@3cb5cdba]" name="closeSelenium" is-config="true" duration-ms="72" started-at="2017-11-10T18:33:54Z" finished-at="2017-11-10T18:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSelenium -->
+        <test-method status="SKIP" signature="aaa()[pri:0, instance:com.testprojects.facebook.tests.FacebookRatingTest@3cb5cdba]" name="aaa" duration-ms="0" started-at="2017-11-10T18:33:54Z" depends-on-methods="com.testprojects.facebook.tests.FacebookRatingTest.facebookRatingCompare" finished-at="2017-11-10T18:33:54Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method FacebookAppTest.aaa()[pri:0, instance:com.testprojects.facebook.tests.FacebookRatingTest@3cb5cdba] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method FacebookAppTest.aaa()[pri:0, instance:com.testprojects.facebook.tests.FacebookRatingTest@3cb5cdba] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1063)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaa -->
+      </class> <!-- com.testprojects.facebook.tests.FacebookRatingTest -->
+    </test> <!-- FacebookApp test1 -->
+  </suite> <!-- FacebookApp Suite -->
+</testng-results>
