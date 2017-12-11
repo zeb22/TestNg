@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "RatingApp Suite">
+    <test name = "FacebookApp test">
+        <classes>
+            <!--<class name = "com.testprojects.facebook.tests.FacebookRatingTest"/>-->
+            <!--<class name = "com.testprojects.facebook.tests.GmailRatingTest"/>-->
+            <class name = "com.testprojects.facebook.tests.InstagramRatingTest"/>
+        </classes>
+    </test>
+
+    <!--<test name = "GmailApp test">-->
+        <!--<classes>-->
+            <!--<class name = "com.testprojects.facebook.tests.GmailRatingTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name = "InstagramApp test">-->
+        <!--<classes>-->
+            <!--<class name = "com.testprojects.facebook.tests.InstagramRatingTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>

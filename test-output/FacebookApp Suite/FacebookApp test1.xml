@@ -4,7 +4,7 @@
   <testcase name="facebookRatingCompare" time="5.973" classname="com.testprojects.facebook.tests.FacebookRatingTest">
     <failure type="java.lang.AssertionError" message="2 start should be more than 3 start expected [false] but found [true]">
       <![CDATA[java.lang.AssertionError: 2 start should be more than 3 start expected [false] but found [true]
-	at com.testprojects.facebook.tests.FacebookRatingTest.facebookRatingCompare(FacebookAppTest.java:74)
+	at test(FacebookAppTest.java:74)
 ... Removed 26 stack frames]]>
     </failure>
   </testcase> <!-- facebookRatingCompare -->

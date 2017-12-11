@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [FacebookApp Suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FacebookApp Suite]">
   <test name="FacebookApp test(failed)">
     <classes>
       <class name="com.testprojects.facebook.tests.FacebookRatingTest">
         <methods>
-          <include name="closeSelenium"/>
-          <include name="closeSelenium"/>
-          <include name="setupSelenium"/>
-          <include name="setupSelenium"/>
-          <include name="aaa"/>
-          <include name="facebookRatingCompare"/>
+          <include name="test2"/>
+          <include name="tearDown"/>
+          <include name="searchOnGoogle"/>
+          <include name="test3"/>
+          <include name="setUp"/>
+          <include name="clickOnSearchResult"/>
+          <include name="cleanUp"/>
+          <include name="test4"/>
         </methods>
       </class> <!-- com.testprojects.facebook.tests.FacebookRatingTest -->
     </classes>
   </test> <!-- FacebookApp test(failed) -->
-  <test name="FacebookApp test1(failed)">
-    <classes>
-      <class name="com.testprojects.facebook.tests.FacebookRatingTest">
-        <methods>
-          <include name="closeSelenium"/>
-          <include name="closeSelenium"/>
-          <include name="setupSelenium"/>
-          <include name="setupSelenium"/>
-          <include name="aaa"/>
-          <include name="facebookRatingCompare"/>
-        </methods>
-      </class> <!-- com.testprojects.facebook.tests.FacebookRatingTest -->
-    </classes>
-  </test> <!-- FacebookApp test1(failed) -->
 </suite> <!-- Failed suite [FacebookApp Suite] -->
